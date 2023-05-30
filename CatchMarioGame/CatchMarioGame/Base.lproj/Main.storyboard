@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchMarioGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="ZdL-7Y-fGe">
+                                <rect key="frame" x="43" y="226" width="99" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="TnN-xc-Pkl"/>
+                                    <constraint firstAttribute="height" constant="128" id="csH-Bu-Jjl"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="Tzp-cc-QmJ">
+                                <rect key="frame" x="150" y="226" width="99" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="7py-18-ESN"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="wTc-wf-xgn">
+                                <rect key="frame" x="257" y="226" width="99" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="38w-FZ-AuZ">
+                                <rect key="frame" x="36" y="362" width="99" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="rOY-yR-AVJ">
+                                <rect key="frame" x="150" y="362" width="99" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="Eog-Eu-tZz">
+                                <rect key="frame" x="257" y="362" width="99" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="oS6-hx-hz9">
+                                <rect key="frame" x="43" y="498" width="99" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="JLd-NH-JCI">
+                                <rect key="frame" x="257" y="498" width="99" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="tW0-JB-ZeH">
+                                <rect key="frame" x="150" y="498" width="99" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Time: 30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1V-Uy-29q">
+                                <rect key="frame" x="107" y="83" width="178" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Vre-qZ-FvE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQJ-pt-WSl">
+                                <rect key="frame" x="107" y="145" width="178" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="fD5-ey-XUP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Highscore: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRH-xs-u0e">
+                                <rect key="frame" x="68" y="705" width="256" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="7jL-B5-9AJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Tzp-cc-QmJ" firstAttribute="leading" secondItem="rOY-yR-AVJ" secondAttribute="leading" id="2pR-Zo-Hvp"/>
+                            <constraint firstItem="hRH-xs-u0e" firstAttribute="top" secondItem="oS6-hx-hz9" secondAttribute="bottom" constant="79" id="3Vx-Fc-Y4a"/>
+                            <constraint firstItem="wTc-wf-xgn" firstAttribute="leading" secondItem="Tzp-cc-QmJ" secondAttribute="trailing" constant="8" id="8Vt-Yz-Ypb"/>
+                            <constraint firstItem="Tzp-cc-QmJ" firstAttribute="leading" secondItem="ZdL-7Y-fGe" secondAttribute="trailing" constant="8" id="AJR-e0-cpd"/>
+                            <constraint firstItem="rOY-yR-AVJ" firstAttribute="top" secondItem="Eog-Eu-tZz" secondAttribute="top" id="Axw-RG-iwg"/>
+                            <constraint firstItem="H1V-Uy-29q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="C88-f7-P7g"/>
+                            <constraint firstItem="rOY-yR-AVJ" firstAttribute="leading" secondItem="tW0-JB-ZeH" secondAttribute="leading" id="Dzf-6e-hHU"/>
+                            <constraint firstItem="38w-FZ-AuZ" firstAttribute="top" secondItem="ZdL-7Y-fGe" secondAttribute="bottom" constant="8" id="E5F-nU-k0F"/>
+                            <constraint firstItem="Tzp-cc-QmJ" firstAttribute="trailing" secondItem="rOY-yR-AVJ" secondAttribute="trailing" id="FOa-KR-ozP"/>
+                            <constraint firstItem="wTc-wf-xgn" firstAttribute="leading" secondItem="Eog-Eu-tZz" secondAttribute="leading" id="KDj-Tm-O8n"/>
+                            <constraint firstItem="ZdL-7Y-fGe" firstAttribute="trailing" secondItem="oS6-hx-hz9" secondAttribute="trailing" id="Kig-1o-SVK"/>
+                            <constraint firstItem="38w-FZ-AuZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LbB-YN-tYO"/>
+                            <constraint firstItem="ZdL-7Y-fGe" firstAttribute="top" secondItem="zQJ-pt-WSl" secondAttribute="bottom" constant="45" id="McX-yk-NWp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hRH-xs-u0e" secondAttribute="bottom" constant="77" id="Mme-8A-ffV"/>
+                            <constraint firstItem="rOY-yR-AVJ" firstAttribute="leading" secondItem="38w-FZ-AuZ" secondAttribute="trailing" constant="15" id="Sv1-WM-DuA"/>
+                            <constraint firstItem="ZdL-7Y-fGe" firstAttribute="top" secondItem="Tzp-cc-QmJ" secondAttribute="top" id="TGg-1f-d0P"/>
+                            <constraint firstItem="H1V-Uy-29q" firstAttribute="trailing" secondItem="zQJ-pt-WSl" secondAttribute="trailing" id="UQP-X9-bOj"/>
+                            <constraint firstItem="tW0-JB-ZeH" firstAttribute="top" secondItem="JLd-NH-JCI" secondAttribute="top" id="W2h-9a-Inw"/>
+                            <constraint firstItem="38w-FZ-AuZ" firstAttribute="top" secondItem="rOY-yR-AVJ" secondAttribute="top" id="Wom-xs-eWK"/>
+                            <constraint firstItem="tW0-JB-ZeH" firstAttribute="bottom" secondItem="JLd-NH-JCI" secondAttribute="bottom" id="XEM-M2-RUX"/>
+                            <constraint firstItem="H1V-Uy-29q" firstAttribute="leading" secondItem="zQJ-pt-WSl" secondAttribute="leading" id="YUl-2i-eTc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wTc-wf-xgn" secondAttribute="trailing" constant="37" id="ZD6-Bp-R5w"/>
+                            <constraint firstItem="zQJ-pt-WSl" firstAttribute="top" secondItem="H1V-Uy-29q" secondAttribute="bottom" constant="26" id="aZj-4J-8vO"/>
+                            <constraint firstItem="38w-FZ-AuZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="bkj-IW-idQ"/>
+                            <constraint firstItem="hRH-xs-u0e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="cNK-61-IOn"/>
+                            <constraint firstItem="H1V-Uy-29q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cqJ-Qu-WL2"/>
+                            <constraint firstItem="38w-FZ-AuZ" firstAttribute="bottom" secondItem="rOY-yR-AVJ" secondAttribute="bottom" id="fFA-la-VOd"/>
+                            <constraint firstItem="rOY-yR-AVJ" firstAttribute="trailing" secondItem="tW0-JB-ZeH" secondAttribute="trailing" id="h5c-oh-Mia"/>
+                            <constraint firstItem="wTc-wf-xgn" firstAttribute="trailing" secondItem="Eog-Eu-tZz" secondAttribute="trailing" id="hTm-Re-jbD"/>
+                            <constraint firstItem="oS6-hx-hz9" firstAttribute="top" secondItem="tW0-JB-ZeH" secondAttribute="top" id="i62-Ng-Jn7"/>
+                            <constraint firstItem="zQJ-pt-WSl" firstAttribute="centerX" secondItem="hRH-xs-u0e" secondAttribute="centerX" id="kOf-Aa-Huw"/>
+                            <constraint firstItem="Tzp-cc-QmJ" firstAttribute="top" secondItem="wTc-wf-xgn" secondAttribute="top" id="m44-Ru-c6N"/>
+                            <constraint firstItem="H1V-Uy-29q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="m4e-tM-abY"/>
+                            <constraint firstItem="rOY-yR-AVJ" firstAttribute="bottom" secondItem="Eog-Eu-tZz" secondAttribute="bottom" id="nFH-Pf-eLj"/>
+                            <constraint firstItem="ZdL-7Y-fGe" firstAttribute="bottom" secondItem="Tzp-cc-QmJ" secondAttribute="bottom" id="nPr-rv-N4z"/>
+                            <constraint firstItem="oS6-hx-hz9" firstAttribute="top" secondItem="38w-FZ-AuZ" secondAttribute="bottom" constant="8" id="nnq-4S-NbD"/>
+                            <constraint firstItem="ZdL-7Y-fGe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="nu8-wa-8TJ"/>
+                            <constraint firstItem="Eog-Eu-tZz" firstAttribute="trailing" secondItem="JLd-NH-JCI" secondAttribute="trailing" id="pYe-dd-rOk"/>
+                            <constraint firstItem="oS6-hx-hz9" firstAttribute="bottom" secondItem="tW0-JB-ZeH" secondAttribute="bottom" id="v0I-B1-8a9"/>
+                            <constraint firstItem="ZdL-7Y-fGe" firstAttribute="leading" secondItem="oS6-hx-hz9" secondAttribute="leading" id="wfC-UG-BdU"/>
+                            <constraint firstItem="Eog-Eu-tZz" firstAttribute="leading" secondItem="JLd-NH-JCI" secondAttribute="leading" id="xdx-7l-agE"/>
+                            <constraint firstItem="Tzp-cc-QmJ" firstAttribute="bottom" secondItem="wTc-wf-xgn" secondAttribute="bottom" id="y3w-yp-7Rq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="highscoreLabel" destination="hRH-xs-u0e" id="ngD-zM-qaZ"/>
+                        <outlet property="mario" destination="ZdL-7Y-fGe" id="m5q-xt-8bc"/>
+                        <outlet property="mario2" destination="Tzp-cc-QmJ" id="rh6-tL-eGY"/>
+                        <outlet property="mario3" destination="wTc-wf-xgn" id="6Sn-zr-bhf"/>
+                        <outlet property="mario4" destination="38w-FZ-AuZ" id="Osv-Xf-gdF"/>
+                        <outlet property="mario5" destination="rOY-yR-AVJ" id="hFi-Of-OUa"/>
+                        <outlet property="mario6" destination="Eog-Eu-tZz" id="Nnl-Kr-Wl1"/>
+                        <outlet property="mario7" destination="oS6-hx-hz9" id="Dw6-bu-GEQ"/>
+                        <outlet property="mario8" destination="tW0-JB-ZeH" id="reP-1K-Ite"/>
+                        <outlet property="mario9" destination="JLd-NH-JCI" id="3gY-fK-jBd"/>
+                        <outlet property="scoreLabel" destination="zQJ-pt-WSl" id="FXP-kC-FRL"/>
+                        <outlet property="timeLabel" destination="H1V-Uy-29q" id="AgL-uy-DEt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11.450381679389313" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mario" width="1586" height="2462"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
